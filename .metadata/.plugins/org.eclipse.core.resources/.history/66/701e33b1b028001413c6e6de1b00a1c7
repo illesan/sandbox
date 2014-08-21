@@ -1,0 +1,41 @@
+'''
+Created on Aug 20, 2014
+
+@author: eandill
+'''
+
+import pxssh
+
+class sshClient:
+    '''
+    classdocs
+    '''
+
+    def __init__(self, host, user, password, cmd):
+        '''
+        Constructor
+        '''
+        self.host = host
+        self.user = user
+        self.password = password
+        self.cmd = cmd
+        self.session = self.connect(self.cmd)
+        
+    def connect(self, host, self.user, self.password, self.cmd):
+        try:                                                            
+            s = pxssh.pxssh()
+            hostname = host
+            username = self.user
+            password = self.password
+            cmd = self.cmd
+            s.login (hostname, username, password)
+            s.sendline (cmd)  # run a command
+            s.prompt()             # match the prompt
+            print s.before         # print everything before the prompt.
+            s.logout()
+        except pxssh.ExceptionPxssh, e:
+            print "pxssh failed on login."
+            print str(e)
+        
+c = sshClient('192.168.1.111', 'pi', 'raspi123', 'uptime')
+

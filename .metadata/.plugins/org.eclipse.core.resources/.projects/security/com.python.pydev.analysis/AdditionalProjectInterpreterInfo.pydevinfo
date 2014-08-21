@@ -1,0 +1,49 @@
+-- VERSION_3
+-- START DISKCACHE
+/home/eandill/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/security/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+ssh_botNet|0|/home/eandill/workspace/security/ssh_botNet.py
+tmp|0|/home/eandill/workspace/security/tmp.py
+unix_pwd_crck|0|/home/eandill/workspace/security/unix_pwd_crck.py
+linux_pwd_crck|0|/home/eandill/workspace/security/linux_pwd_crck.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+1=ssh_botNet
+6=MyClass
+7=Client.__init__
+2=tmp
+4=unix_pwd_crck
+5=Client
+3=linux_pwd_crck
+-- END DICTIONARY
+-- START TREE 1
+14
+!<m|0|
+add|1|addClient!10@
+bot|2|botNet!11@botnetCommand!10@
+c|0|
+cli|1|Client!9@
+hos|1|hostname!19@
+lie|0|
+mai|1|Main!26@
+myc|1|MyClass!33@
+pas|1|password!19@
+s|1|s!19@
+ssh|0|
+tes|1|testPass!26@
+use|1|username!19@
+-- END TREE
+-- START TREE 2
+10
+!<m|0|
+__i|2|__init__!5&10@__init__!6&34@
+cmd|0|
+co|0|
+con|1|connect!5&10@
+hos|1|host!7&11@
+pas|1|password!7&11@
+sen|1|send_command!5&10@
+ses|1|session!7&11@
+use|1|user!7&11@
+-- END TREE

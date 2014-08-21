@@ -1,0 +1,13 @@
+INSTUPmy_classes
+/home/eandill/workspace/security/my_classes.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&3|7|2|5&&3|8|2|5&&2|9|2|1&&3|10|2|0
+__init__=3
+my_classes=2
+cmd=8
+host=4
+connect=9
+c=10
+sshClient.__init__=5
+sshClient=1
+password=7
+user=6

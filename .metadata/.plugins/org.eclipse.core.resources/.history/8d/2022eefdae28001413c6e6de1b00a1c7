@@ -1,0 +1,17 @@
+'''
+Created on Aug 20, 2014
+
+@author: eandill
+'''
+
+class sshClient(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(selfparams):
+        '''
+        Constructor
+        '''
+        

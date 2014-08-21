@@ -1,0 +1,21 @@
+'''
+Created on Aug 20, 2014
+
+@author: eandill
+'''
+
+class sshClient(self, host, user, password, cmd):
+    '''
+    classdocs
+    '''
+
+    def __init__(selfparams):
+        '''
+        Constructor
+        '''
+        self.host = host
+        self.user = user
+        self.password = password
+        self.session = self.connect(cmd)
+        
+        
