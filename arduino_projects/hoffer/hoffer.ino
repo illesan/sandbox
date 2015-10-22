@@ -46,7 +46,7 @@ void setup() {
   Keyboard.releaseAll();
   delay(2000);
   //Enter mail details
-  Keyboard.print("andras.illes@ericsson.com");
+  Keyboard.print("<email>");
   delay(500);
   Keyboard.press(tab);
   delay(100);
